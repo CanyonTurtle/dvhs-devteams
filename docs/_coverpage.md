@@ -2,6 +2,7 @@
 ![logo](_media/dvhslogo.png)
 # DVHS Devteams: Use RobotC
 
+[GitHub](https://github.com/CanyonTurtle/robotc-docs-demo)
 ### Learn *more* than just the basics of RobotC: program VRC competition robots.
 
 - Resources for understanding C sytnax.
