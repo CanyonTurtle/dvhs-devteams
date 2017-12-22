@@ -12,10 +12,16 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
+      search: auto,
       name: '',
       repo: '',
       coverpage: true,
       themeColor:  '#FF0000'
+    }
+  </script>
+  <script>
+    if (typeof navigator.serviceWorker !== 'undefined') {
+      navigator.serviceWorker.register('sw.js')
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
