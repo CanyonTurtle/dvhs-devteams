@@ -5,8 +5,8 @@
 # Start
 
 # Example C File
-``` c
 
+``` c
 void powerDrive(int left, int right) {
   motor[port1] = left;
   motor[port2] = right;
