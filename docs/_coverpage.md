@@ -1,11 +1,9 @@
-![logo](_media/robotc.png)
 ![logo](_media/dvhslogo.png)
-# DVHS Devteams: Use RobotC
 
-### Learn *more* than just the basics of RobotC: program VRC competition robots.
+### Learn *more* than just the basics: build and program VRC competition robots.
 
-- Resources for understanding C sytnax.
+- Understand the RobotC system.
 - Control Sensors, Motors, LCD, use the Joystick, etc.
-- Useful patterns for designing robot code that will behave predicatably and efficiently.
+- Design safe programs and autonomous control routines.
 
 [GitHub](https://github.com/CanyonTurtle/robotc-docs-demo)
