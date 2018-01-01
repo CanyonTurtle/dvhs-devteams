@@ -163,3 +163,4 @@ Two int variables: leftPower and rightPower, being used to temporarily store use
 The use of vexRT(Ch3) to read user input. Ch3 corresponds to the analog channel on the left:
 
 
+hi
