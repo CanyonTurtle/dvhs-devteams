@@ -4,7 +4,7 @@ This content pertains to the mechanical design and assembly of VEX robots.
 
 # Refining Build Skill
 
-> Build Skill is only important *after* you have a design in mind - knowing what to build is harder than knowing how to build it. This section is about the 'how', but the 'what' is just as important.
+> Build Skill is only important *after* a design is figured out - knowing what to build is harder than knowing how to build it. This section is about the 'how', but the 'what' is just as important.
 
 An important part of making competition-level robots is reducing the possible room for error, looseness, etc... that results simply from building without the level of scrutiny that is necessary.
 
@@ -16,13 +16,16 @@ An important part of making competition-level robots is reducing the possible ro
 etc...
 * [ ] so much friction, nothing spins
 
-The key to refining your build skill is finding the sources of slop, and eliminating them!
+The key to refining build skill is finding the sources of slop, and eliminating them!
 
-Here are some ways to address slop:
-- [space out elements correctly](mech?id=know-thy-spacing)
+These sections are all about reducing slop, and being more precise:
+1. [space out elements correctly](mech?id=know-thy-spacing)
+2. [align the build](mech?id=aligning-made-easy)
+3. [make proper joints](mech?id=make-proper-joints)
+
 # Know thy Spacing
 
-Knowing how much space should be in between parts is essential. Every length, dimension, and even weight is recorded, and for you to use. You can determine the exact lengths of parts [on the VEX site](https://www.vexrobotics.com/shafts-and-hardware.html) (see the size tab at the bottom), using a ruler, or by using [CAD](cad.md).
+Knowing how much space should be in between parts is essential. Every length, dimension, and even weight is recorde. The exact lengths of parts is [on the VEX site](https://www.vexrobotics.com/shafts-and-hardware.html) (see the size tab at the bottom). A ruler can be used even. [CAD](cad.md) is the preferred, most scalable way to space out the robot.
 
 > 'OD and ID' stand for 'Outside Diameter' and Inside Diameter' respectively.
 
@@ -35,7 +38,7 @@ You should also know some basic facts about how VEX distances correlate in real 
 - Screws are NOT exactly the right radius to fit inside the C channel squares. They are a bit smaller, which allows you to shift the metal a bit in a joint (which leads to less exactness.) Except for [shoulder screws](https://www.vexrobotics.com/all-screws.html) which do.
 - C channel side-panels are NOT 0.5" exactly (see above). This implies things about how C Channels line up.
 
-As you practice building in VEX, you will see that spacing exactness will determine how professional and how clean your robot 'feels'. Tight, exact, planned spacing is key.
+As you practice building in VEX, you will see that spacing exactness will determine how professional and how clean the robot 'feels'. Tight, exact, planned spacing is key.
 
 Let's show a very simple scenario where you will need to calculate spacing: gears.
 
@@ -74,16 +77,21 @@ Some people in our club have made one already:
 - [Calculator 1](https://canyonturtle.github.io/spacing-calc)
 - [Calculator 2 (pretty famous on VEX forums!)](http://www.dvhsrobotics.com/spacing-calculator.html)
 
-This example illustrates the monkeying around you have to do yourself to find the lengths precisely - but it CAN be done! the reward is perfect spacing, and no slop.
+This example illustrates some monkeying around to find the lengths precisely - it CAN be done! the reward is perfect spacing, and much less slop.
 
 # Aligning Made Easy
 
 There are several tricks you can use to easily 'line up' your build. 
-This includes:
-- general tower alignment
-- joint alignment
-
-'Lined up' builds use the following guidelines:
+This includes the following guidelines:
 - There is an integer amount of holes connecting sets of parallel C channels. If you can brace together your lift and your drive with C channels running 'across' the whole side, that is the best way! It is simple.
 - The important joints are exact: they are either tightened with locknuts exactly centered, or they are mounted with shoulder screws. This ensures the spacing is exactly what you think it is! exceptions to this rule are when it's impossible to have centered spacing (like wedging a c channel between 2 other ones).
--Joints that pivot ALWAYS use bearings on both sides. This is the ONLY way to ensure a joint will be centered around the pivot point you want. Without bearings, you cannot center a screw.
+
+# Make Proper Joints
+
+Firstly, joints that pivot **always** should have bearings on both parts of the joint. This is the **only** way to ensure a joint will be centered around the pivot point you want. Without bearings, you cannot center a screw.
+
+Secondly, the distance between the two parts of the joint should be **minimized**. This is a huge way to reduce slop. Axles and screws will bend less and the joint will take up less space.
+
+Thirdly, Cantilever joints must have a middle locknut or kepsnut securing the screw tightly to one of the joints. If you don't do this, the slop is multiplied by looseness.
+
+TODO insert pic.
