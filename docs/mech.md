@@ -6,6 +6,8 @@ This content pertains to the mechanical design and assembly of VEX robots.
 
 An important part of making competition-level robots is reducing the possible room for error, looseness, etc... that results simply from building without the level of scrutiny that is necessary.
 
+> Build Skill is only important *after* you have a design in mind - knowing what to build is harder than knowing how to build it. This section is about the 'how', but the 'what' is just as important.
+
 ### What is 'Slop'?
 
 'Slop' refers to building 'sloppily' - which could mean one or several of the following, for example:
