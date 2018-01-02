@@ -6,5 +6,5 @@ These resources are meant to be a supplement to the DVHS Robotics Devteams curri
 
 - [CAD](cad.md)
 - [RobotC](robotc.md)
-- Building (coming soon)
+- [Mechanical](mech.md)
 - [External Links](external.md)
