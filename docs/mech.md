@@ -45,7 +45,7 @@ the gear width:
 The width the gear takes up - 0.50"
 
 the C channel hole spacing: 
-![cchanpic](media/c-channel-dimension.PNG)
+![cchanpic](_media/c-channel-dimension.PNG)
 (the distance from the center of the C channel hole to the inside edge) - 0.30"
 
 Now, it is easiest if you can space out one side of both gears with a simple spacer (e.g. 0.25" spacer in this scenario would be appropriate.).
