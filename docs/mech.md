@@ -52,7 +52,7 @@ the C channel hole spacing:
 
 Now, it is easiest if you can space out one side of both gears with a simple spacer (e.g. 0.25" spacer in this scenario would be appropriate.).
 
-Now, the remainins space on this axle just needs to be calculated.Now the distance can be calculated: 
+Now, the remainins space on this axle just needs to be calculated. 
 
 ```
 Remaining Spacing = Total distance - Gear width - 0.25" spacer
