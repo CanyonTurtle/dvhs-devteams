@@ -112,8 +112,12 @@ This includes the following guidelines:
 
 Firstly, joints that pivot **always** should have bearings on both parts of the joint. This is the **only** way to ensure a joint will be centered around the pivot point you want. Without bearings, you cannot center a screw.
 
+> Shoulder screws are incompatible with bearings. Bearings + normal screws are for *moving joints*, while shoulder screws are for perfectly-aligned *rigid structures*. 
+
 Secondly, the distance between the two parts of the joint should be **minimized**. This is a huge way to reduce slop. Axles and screws will bend less and the joint will take up less space.
 
-Thirdly, Cantilever joints must have a middle locknut or kepsnut securing the screw tightly to one of the joints. If you don't do this, the slop is multiplied by looseness.
+Thirdly, understand cantilever joints. A cantilever joint is when there is an open end on the pivoting screw/axle. Cantilever joints should only be done with screws, and they should have a middle locknut or kepsnut securing the screw tightly to the first piece of metal.
 
-TODO insert pic.
+![cantilever](_media/cantilever.jpg)
+
+A Cantilever explanation
