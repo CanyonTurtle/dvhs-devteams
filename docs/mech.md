@@ -4,11 +4,9 @@ This content pertains to the mechanical design and assembly of VEX robots.
 
 # Refining Build Skill
 
-An important part of making competition-level robots is reducing the possible room for error, looseness, etc... that results simply from building without the level of scrutiny that is necessary.
-
 > Build Skill is only important *after* you have a design in mind - knowing what to build is harder than knowing how to build it. This section is about the 'how', but the 'what' is just as important.
 
-### What is 'Slop'?
+An important part of making competition-level robots is reducing the possible room for error, looseness, etc... that results simply from building without the level of scrutiny that is necessary.
 
 'Slop' refers to building 'sloppily' - which could mean one or several of the following, for example:
 - spacing between parts is not exact
@@ -22,7 +20,7 @@ Problems caused by Slop:
 
 The key to reducing slop is to eliminate it's sources, one by one. Here are some common sources of slop, along with ways to fix them.
 
-### 1. Know thy Spacing
+# Know thy Spacing
 
 Knowing how much space should be in between parts is essential. Every length, dimension, and even weight is recorded, and for you to use. You can determine the exact lengths of parts [on the VEX site](https://www.vexrobotics.com/shafts-and-hardware.html) (see the size tab at the bottom), using a ruler, or by using [CAD](cad.md).
 
@@ -78,7 +76,7 @@ Some people in our club have made one already:
 
 This example illustrates the monkeying around you have to do yourself to find the lengths precisely - but it CAN be done! the reward is perfect spacing, and no slop.
 
-### 2. Aligning made Easy
+# 2. Aligning made Easy
 
 There are several tricks you can use to easily 'line up' your build. 
 'Lined up' builds use the following guidelines:
