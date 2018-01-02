@@ -2,9 +2,12 @@
 
 These resources are meant to be a supplement to the DVHS Robotics Devteams curriculum.
 
-# Contents
+# Articles
 
-- [CAD](cad.md)
-- [RobotC](robotc.md)
-- [Mechanical](mech.md)
-- [External Links](external.md)
+TODO Akshay add articles list here
+
+- [Engineering Process](articles/engineering-process.md)
+- [Setting Up CAD](articles/cad.md)
+- [ROBOTC Introduction](articles/starting-robotc.md)
+- [Refining Build Skill](articles/refining-build-skill.md)
+- [External Links](articles/external.md)

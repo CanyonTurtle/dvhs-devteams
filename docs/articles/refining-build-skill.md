@@ -1,28 +1,3 @@
-# Mechanical VEX Robotics
-
-This content pertains to the mechanical design and assembly of VEX robots.
-
-# Most Importantly - The Process
-
-Every team is a bit different in their design process, but there is a general methodology that successful teams subscribe to. This is called the **Engineering Process**, and it provides a clear path to the robot design process.
-
-![engineering process](_media/engineering-process.png)
-
-Don't just sit down and build, start with a problem defined, and go through the steps with the team!
-
-In VEX competitions, it might seem that the 'problem' is simple: win by scoring more points. But have all the right questions been asked? Make sure the team has answers to the most basic questions about what they are trying to accomplish:
-* [ ] which part of the game causes a team to win?
-* [ ] if there are multiple ways to score, which is the most important? What are the relative values of performing each action in the game?
-* [ ] how much time will each part of the game take?
-* [ ] how will the gameplay be affected by teammates and opponents?
-
-For example, in VRC Starstruck, team 5776T had a pow-wow where teammates discussed the new game, minutes after it was unveiled. We answered these questions like so:
-- Teams win by having more stars and cubes on the other side at the **end**. Only the ending configuration matters!
-- Stars make up 50% of the game, cubes are 16%, winning autonomous is 10%, etc...
-- teams should collect the stars onto *their own* side, and throw them all at the *very end*.
-
-Then, this team started discussing ways to design a hoarding robot. It didn't work out, but the point remains: the design process adheres to a solution to the problem. The robot is not the end, it is the means to an end. The winning robot isn't the best looking, the cleanest build, or the one with painted C channels. It's the one that solves the problem most efficiently, and the one with a driver who knows what they are doing. Always focus on solving the problem as best as possible!
-
 
 # Refining Build Skill
 
@@ -41,13 +16,13 @@ etc...
 The key to refining build skill is finding the sources of slop, and eliminating them!
 
 These sections are all about reducing slop, and being more precise:
-1. [space out elements correctly](mech?id=know-thy-spacing)
-2. [align the build](mech?id=aligning-made-easy)
-3. [make proper joints](mech?id=make-proper-joints)
+1. [space out elements correctly](articles/refining-build-skill?id=know-thy-spacing)
+2. [align the build](articles/refining-build-skill?id=aligning-made-easy)
+3. [make proper joints](articles/refining-build-skill?id=make-proper-joints)
 
 # Know thy Spacing
 
-Knowing how much space should be in between parts is essential. Every length, dimension, and even weight is recorde. The exact lengths of parts is [on the VEX site](https://www.vexrobotics.com/shafts-and-hardware.html) (see the size tab at the bottom). A ruler can be used even. [CAD](cad.md) is the preferred, most scalable way to space out the robot.
+) is the preferred, most scalable way to space out the robot.
 
 > 'OD and ID' stand for 'Outside Diameter' and Inside Diameter' respectively.
 
@@ -68,7 +43,7 @@ In a simple scenario, perhaps we want  to find what spacing should be used to sp
 
 ![drawing](_media/cchandrawing.jpg)
 
-To start, you need to find the lengths you already know. For this, I used some measurements on an online CAD viewer. You can see instructions on how to do this [in the CAD section](cad.md).
+To start, you need to find the lengths you already know. For this, I used some measurements on an online CAD viewer. You can see instructions on how to do this [in the CAD section](articles/cad.md).
 
 the gear width:
 ![gearpic](_media/gearview.png)

@@ -2,6 +2,7 @@
 
 ### Learn *more* than just the basics: build and program VRC competition robots.
 
+- Learn the Engineering Process.
 - Understand the RobotC system.
 - Control Sensors, Motors, LCD, use the Joystick, etc.
 - Design safe programs and autonomous control routines.
