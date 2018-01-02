@@ -2,6 +2,14 @@
 
 This content pertains to the mechanical design and assembly of VEX robots.
 
+# Most Importantly - The Process
+
+Every team is a bit different in their design process, but there is a general methodology that successful teams subscribe to. This is called the **Engineering Process**, and it provides a clear path to the robot design process.
+
+[engineering process](_media/engineering-process.png)
+
+The key is: don't just sit down and build, start with a problem defined, and go through the steps with the team!
+
 # Refining Build Skill
 
 > Build Skill is only important *after* a design is figured out - knowing what to build is harder than knowing how to build it. This section is about the 'how', but the 'what' is just as important.
