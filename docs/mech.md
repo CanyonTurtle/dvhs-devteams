@@ -8,18 +8,18 @@ This content pertains to the mechanical design and assembly of VEX robots.
 
 An important part of making competition-level robots is reducing the possible room for error, looseness, etc... that results simply from building without the level of scrutiny that is necessary.
 
-'Slop' refers to building 'sloppily' - which could mean one or several of the following, for example:
+'Slop' refers to building 'sloppily':
 * [ ] spacing between parts is not exact
-* [ ] don't even know the right number of holes to use
+* [ ] don't even know the right number of holes / the right length that the parts should form 
 * [ ] gears don't mesh with eachother perfectly
 * [ ] connection is easily twisted apart
 etc...
+* [ ] so much friction, nothing spins
 
-Problems caused by Slop:
-- friction reduces the effectiveness of the whole thing
+The key to refining your build skill is finding the sources of slop, and eliminating them!
 
-The key to reducing slop is to eliminate it's sources, one by one. Here are some common sources of slop, along with ways to fix them.
-
+Here are some ways to address slop:
+- [space out elements correctly](mech?id=know-thy-spacing)
 # Know thy Spacing
 
 Knowing how much space should be in between parts is essential. Every length, dimension, and even weight is recorded, and for you to use. You can determine the exact lengths of parts [on the VEX site](https://www.vexrobotics.com/shafts-and-hardware.html) (see the size tab at the bottom), using a ruler, or by using [CAD](cad.md).
