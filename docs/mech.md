@@ -38,6 +38,8 @@ Let's show a very simple scenario where you will need to calculate spacing: gear
 
 In a simple scenario, perhaps we want  to find what spacing should be used to space out two 84-tooth gears on some axles.
 
+![drawing](_media/cchandrawing.jpg)
+
 To start, you need to find the lengths you already know. For this, I used some measurements on an online CAD viewer. You can see instructions on how to do this [in the CAD section](cad.md).
 
 the gear width:
