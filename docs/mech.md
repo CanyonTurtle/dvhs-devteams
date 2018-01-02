@@ -21,7 +21,7 @@ For example, in VRC Starstruck, team 5776T had a pow-wow where teammates discuss
 - Stars make up 50% of the game, cubes are 16%, winning autonomous is 10%, etc...
 - teams should collect the stars onto *their own* side, and throw them all at the *very end*.
 
-Then, this team started discussing ways to design a hoarding robot. It didn't work out, but the point remains: the design process adheres to a solution to the problem. The robot is not the end, it is the means to an end. Always focus on solving the problem as best as possible!
+Then, this team started discussing ways to design a hoarding robot. It didn't work out, but the point remains: the design process adheres to a solution to the problem. The robot is not the end, it is the means to an end. The winning robot isn't the best looking, the cleanest build, or the one with painted C channels. It's the one that solves the problem most efficiently, and the one with a driver who knows what they are doing. Always focus on solving the problem as best as possible!
 
 
 # Refining Build Skill
