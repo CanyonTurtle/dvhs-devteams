@@ -2,7 +2,7 @@
 
 This content pertains to the mechanical design and assembly of VEX robots.
 
-# Refining Building Skill
+# Refining Build Skill
 
 An important part of making competition-level robots is reducing the possible room for error, looseness, etc... that results simply from building without the level of scrutiny that is necessary.
 
@@ -14,6 +14,9 @@ An important part of making competition-level robots is reducing the possible ro
 - gears don't mesh with eachother perfectly
 - connection is easily twisted apart
 etc...
+
+Problems caused by Slop:
+- friction reduces the effectiveness of the whole thing
 
 The key to reducing slop is to eliminate it's sources, one by one. Here are some common sources of slop, along with ways to fix them.
 
@@ -72,3 +75,11 @@ Some people in our club have made one already:
 - [Calculator 2 (pretty famous on VEX forums!)](http://www.dvhsrobotics.com/spacing-calculator.html)
 
 This example illustrates the monkeying around you have to do yourself to find the lengths precisely - but it CAN be done! the reward is perfect spacing, and no slop.
+
+### 2. Aligning made Easy
+
+There are several tricks you can use to easily 'line up' your build. 
+'Lined up' builds use the following guidelines:
+- There is an integer amount of holes connecting sets of parallel C channels. If you can brace together your lift and your drive with C channels running 'across' the whole side, that is the best way! It is simple.
+- The important joints are exact: they are either tightened with locknuts exactly centered, or they are mounted with shoulder screws. This ensures the spacing is exactly what you think it is! exceptions to this rule are when it's impossible to have centered spacing (like wedging a c channel between 2 other ones).
+-Joints that pivot ALWAYS use bearings on both sides. This is the ONLY way to ensure a joint will be centered around the pivot point you want. Without bearings, you cannot center a screw.
