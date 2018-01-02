@@ -102,11 +102,11 @@ task main()
   while(true) {
     
     // if the user presses button 5U
-    if (vexRT(Btn5U) == 1) {
+    if (vexRT[Btn5U] == 1) {
       motor[port1] = 127;
     }
     // if the above didn't happen, do this
-    else if (vexRT(Btn5U) == 1) {
+    else if (vexRT[Btn5U] == 1) {
       motor[port1] = -127;
     }
     // if all the above failed, lastly do this as default.
@@ -116,6 +116,7 @@ task main()
   }
 }
 ```
+ > Cortex not working? [try these steps](https://www.roboticseducation.org/documents/2013/06/vex-robot-troubleshooting-flowchart.pdf).
 
 The above code will keep doing the following forever:
 Check if button 5U is pressed, and if so, power the motor forward
@@ -123,10 +124,10 @@ If button 5U wasn’t pressed, but button 5D was, power the motor backward
 If neither button was pressed, the motor will be set to 0.
 Remember that if the motor power isn't set back to 0, it will keep powering what it was set to last (unless the cortex is turned off).
 
-Note that vexRT(Btn5U) will return (run and give back the answer of) either 1 or 0 depending on if the user is pressing the button or not. Note this shorthand for button input:
+Note that vexRT[Btn5U] will return (run and give back the answer of) either 1 or 0 depending on if the user is pressing the button or not. Note this shorthand for button input:
 
 ``` c
-if(vexRT(Btn5D)) {
+if(vexRT[Btn5D]) {
   // run the statements inside here if it's pressed...
 }
 ```
@@ -147,8 +148,8 @@ task main()
   while (true) {
     
     // store user input into variables
-    leftPower = vexRT(Ch1);
-    rightPower = vexRT(Ch2);
+    leftPower = vexRT[Ch1];
+    rightPower = vexRT[Ch2];
 
 
     // use the variables to power motors!
@@ -161,4 +162,4 @@ task main()
 This code has several important aspects:
 A `while` loop - that keeps going forever. Remember that while loops check the condition at the top, and if it is true, the while loop’s body inside the { ... } will execute once, and the entire process repeats until the top condition is false.
 Two int variables: leftPower and rightPower, being used to temporarily store user input. The analog channels can return any number between -127 and 127, corresponding to the user pressing fully back or fully forward, so the answer is stored in the int type.
-The use of vexRT(Ch3) to read user input. Ch3 corresponds to the analog channel on the left:
+The use of vexRT[Ch3] to read user input. Ch3 corresponds to the analog channel on the left:
