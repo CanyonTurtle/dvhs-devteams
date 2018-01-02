@@ -1,6 +1,6 @@
 # Learn
 
-These resources are meant to be a supplement to the DVHS Robotics Devteams cirriculum.
+These resources are meant to be a supplement to the DVHS Robotics Devteams curriculum.
 
 # Contents
 
