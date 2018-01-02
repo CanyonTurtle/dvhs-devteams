@@ -17,7 +17,7 @@ etc...
 
 The key to reducing slop is to eliminate it's sources, one by one. Here are some common sources of slop, along with ways to fix them.
 
-### 1. Know the Spacing
+### 1. Know thy Spacing
 
 Knowing how much space should be in between parts is essential. Every length, dimension, and even weight is recorded, and for you to use. You can determine the exact lengths of parts [on the VEX site](https://www.vexrobotics.com/shafts-and-hardware.html) (see the size tab at the bottom), using a ruler, or by using [CAD](cad.md).
 
@@ -29,4 +29,21 @@ You should also know some basic facts about how VEX distances correlate in real 
 
 - Holes happen to be exactly 0.5" apart from hole to hole in a straight line.
 - The VRC max size limit is usually 18", so a 7-segment (35-hole) C-channel is 0.5" from being the max edge length.
-- Screws are NOT exactly the right radius to fit inside the C channel squares. They are a bit smaller, which allows you to shift the metal a bit in a joint (which leads to less exactness.)
+- Screws are NOT exactly the right radius to fit inside the C channel squares. They are a bit smaller, which allows you to shift the metal a bit in a joint (which leads to less exactness.) Except for [shoulder screws](https://www.vexrobotics.com/all-screws.html) which do.
+- C channel side-panels are NOT 0.5" exactly (see above). This implies things about how C Channels line up.
+
+As you practice building in VEX, you will see that spacing exactness will determine how professional and how clean your robot 'feels'. Tight, exact, planned spacing is key.
+
+Let's show a very simple scenario where you will need to calculate spacing: gears.
+
+In a simple scenario, perhaps we want  to find what spacing should be used to space out two 84-tooth gears on some axles.
+
+To start, you need to find the lengths you already know. For this, I used some measurements on an online CAD viewer. You can see instructions on how to do this [in the CAD section](cad.md).
+
+![gearpic](_media/gearview.png)
+
+From this, the gear apperently will take up 0.5" on the axle.
+
+Now, it is easiest if you can space out one side of both gears with a simple spacer (e.g. 0.25" spacer in this scenario would be appropriate.).
+
+Now, the remainins space on this axle just needs to be calculated. This problem is solved for you already, you can use a [spacing calculator for VEX.](https://canyonturtle.github.io/spacing-calc)
