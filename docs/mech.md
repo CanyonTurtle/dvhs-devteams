@@ -9,10 +9,10 @@ This content pertains to the mechanical design and assembly of VEX robots.
 An important part of making competition-level robots is reducing the possible room for error, looseness, etc... that results simply from building without the level of scrutiny that is necessary.
 
 'Slop' refers to building 'sloppily' - which could mean one or several of the following, for example:
-- spacing between parts is not exact
-- don't even know the right number of holes to use
-- gears don't mesh with eachother perfectly
-- connection is easily twisted apart
+* [ ] spacing between parts is not exact
+* [ ] don't even know the right number of holes to use
+* [ ] gears don't mesh with eachother perfectly
+* [ ] connection is easily twisted apart
 etc...
 
 Problems caused by Slop:
@@ -76,9 +76,13 @@ Some people in our club have made one already:
 
 This example illustrates the monkeying around you have to do yourself to find the lengths precisely - but it CAN be done! the reward is perfect spacing, and no slop.
 
-# 2. Aligning made Easy
+# Aligning Made Easy
 
 There are several tricks you can use to easily 'line up' your build. 
+This includes:
+- general tower alignment
+- joint alignment
+
 'Lined up' builds use the following guidelines:
 - There is an integer amount of holes connecting sets of parallel C channels. If you can brace together your lift and your drive with C channels running 'across' the whole side, that is the best way! It is simple.
 - The important joints are exact: they are either tightened with locknuts exactly centered, or they are mounted with shoulder screws. This ensures the spacing is exactly what you think it is! exceptions to this rule are when it's impossible to have centered spacing (like wedging a c channel between 2 other ones).
