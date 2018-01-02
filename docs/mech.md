@@ -40,9 +40,11 @@ In a simple scenario, perhaps we want  to find what spacing should be used to sp
 
 To start, you need to find the lengths you already know. For this, I used some measurements on an online CAD viewer. You can see instructions on how to do this [in the CAD section](cad.md).
 
+the gear width:
 ![gearpic](_media/gearview.png)
 
-From this, the gear apperently will take up 0.5" on the axle.
+the C channel hole spacing: 
+![cchanpic](media/c-channel-dimension.png)
 
 Now, it is easiest if you can space out one side of both gears with a simple spacer (e.g. 0.25" spacer in this scenario would be appropriate.).
 
