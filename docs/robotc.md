@@ -1,6 +1,5 @@
 # ROBOTC
 ### DVHS Robotics Novice Program 2017-2018
-Pratham was here!
 Programming is a fun and important part of robotics. This document will help you become an effective and prepared ROBOTC programmer for the VEX Robotics Competition. We hope that you will enjoy learning!
 
 # Installing / Configuring ROBOTC
