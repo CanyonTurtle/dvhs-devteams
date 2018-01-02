@@ -15,8 +15,13 @@ An important part of making competition-level robots is reducing the possible ro
 - connection is easily twisted apart
 etc...
 
-The key to reducing slop is to eliminate it's sources, one by one.
+The key to reducing slop is to eliminate it's sources, one by one. Here are some common sources of slop, along with ways to fix them.
 
 ### 1. Know the Spacing
 
 Knowing how much space should be in between parts is essential. Every length, dimension, and even weight is recorded, and for you to use. You can determine the exact lengths of parts [on the VEX site](https://www.vexrobotics.com/shafts-and-hardware.html) (see the description tab at the bottom), using a ruler, or by using [CAD](cad.md).
+
+You should also know some basic facts about how VEX distances correlate in real life:
+- Holes happen to be exactly 0.5" apart from hole to hole in a straight line.
+- The VRC max size limit is usually 18", so a 7-segment (35-hole) C-channel is 0.5" from being the max edge length.
+- Screws are NOT exactly the right radius to fit inside the C channel squares. They are a bit smaller, which allows you to shift the metal a bit in a joint (which leads to less exactness.)
