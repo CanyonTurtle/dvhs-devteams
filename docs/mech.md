@@ -52,9 +52,7 @@ the C channel hole spacing:
 
 Now, it is easiest if you can space out one side of both gears with a simple spacer (e.g. 0.25" spacer in this scenario would be appropriate.).
 
-Now, the remainins space on this axle just needs to be calculated. This problem is solved for you already, you can use a [spacing calculator for VEX.](https://canyonturtle.github.io/spacing-calc)
-
-Now the distance can be calculated: 
+Now, the remainins space on this axle just needs to be calculated.Now the distance can be calculated: 
 
 ```
 Remaining Spacing = Total distance - Gear width - 0.25" spacer
@@ -64,6 +62,13 @@ A = 2 - 1.35
 A = 0.65"
 ```
 
-Let's allow 0.05" of tolerance, and that is a final distance of 0.6" to fill with more spacers.
+Let's allow 0.05" of tolerance, and that is a final distance of 0.6"
+to fill with more spacers.
+
+Wondering which spacers to use? This problem is solved for you already, you can use a Spacing Calculator.
+
+Some people in our club have made one already:
+- [Calculator 1](https://canyonturtle.github.io/spacing-calc)
+- [Calculator 2 (pretty famous on VEX forums!)](http://www.dvhsrobotics.com/spacing-calculator.html)
 
 This example illustrates the monkeying around you have to do yourself to find the lengths precisely - but it CAN be done! the reward is perfect spacing, and no slop.
