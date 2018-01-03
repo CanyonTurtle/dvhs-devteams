@@ -11,3 +11,31 @@ TODO Akshay add articles list here
 - [ROBOTC Introduction](articles/starting-robotc.md)
 - [Refining Build Skill](articles/refining-build-skill.md)
 - [External Links](articles/external.md)
+- [Terminology]()
+
+# Mechanical Content
+
+- [Engineering-Processs](articles/engineering-processs.md)
+- [Subsystem Explanation]()
+  - tank drive
+  - x drive
+  - mecanum drive
+  - other drives
+  lifts
+  - 2, 4, 8, 8bar
+  - rd4b, rd6b
+  - cascading, continuous chain
+  - hybrids
+  - chain bar
+- [using elastics to band lifts]()
+- [bracing]()
+- [Manipulators (claw, roller, etc.)]()
+- [Gears (compound gearing)]()
+- [Friction]()
+- [Spacing]()
+- [Using Chain]()
+- [Joints (axle-screw converter)]()
+- [Cortex Wiring]()
+- [Tournament protocol]()
+- [Documentation & Engineering Notebooks]()
+- [ All about Sensors]()
