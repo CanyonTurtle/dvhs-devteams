@@ -2,19 +2,11 @@
 
 These resources are meant to be a supplement to the DVHS Robotics Devteams curriculum.
 
-# Articles
-
-TODO Akshay add articles list here
-
-- [Engineering Process](articles/engineering-process.md)
-- [Setting Up CAD](articles/cad.md)
-- [ROBOTC Introduction](articles/starting-robotc.md)
-- [Refining Build Skill](articles/refining-build-skill.md)
-- [External Links](articles/external.md)
-
 # Mechanical Content
+
 - [Terminology](articles/terminology.md)
 - [Engineering-Processs](articles/engineering-processs.md)
+- [Refining Build Skill](articles/refining-build-skill.md)
 - [Subsystem Explanation]()
   - tank drive
   - x drive
@@ -38,3 +30,11 @@ TODO Akshay add articles list here
 - [Tournament protocol]()
 - [Documentation & Engineering Notebooks]()
 - [ All about Sensors]()
+
+# Programming Content
+- [ROBOTC Introduction](articles/starting-robotc.md)
+
+# Extra Articles
+
+- [Setting Up CAD](articles/cad.md)
+- [External Links](articles/external.md)
