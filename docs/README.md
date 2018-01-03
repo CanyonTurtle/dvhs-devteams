@@ -11,10 +11,9 @@ TODO Akshay add articles list here
 - [ROBOTC Introduction](articles/starting-robotc.md)
 - [Refining Build Skill](articles/refining-build-skill.md)
 - [External Links](articles/external.md)
-- [Terminology]()
 
 # Mechanical Content
-
+- [Terminology](articles/terminology.md)
 - [Engineering-Processs](articles/engineering-processs.md)
 - [Subsystem Explanation]()
   - tank drive
