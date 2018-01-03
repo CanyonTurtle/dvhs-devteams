@@ -2,12 +2,14 @@
 
 These resources are meant to be a supplement to the DVHS Robotics Devteams curriculum.
 
+> If you are making content, put the article in the `articles` folder, and then change the link from disable to the link url in the README.md in the `docs` folder. Thanks!
+
 # Mechanical Content
 
 - [Terminology](articles/terminology.md)
-- [Engineering-Processs](articles/engineering-processs.md)
+- [Engineering-Processs](articles/engineering-process.md)
 - [Refining Build Skill](articles/refining-build-skill.md)
-- [Subsystem Explanation]()
+- [Subsystem Explanation](":disabled")
   - tank drive
   - x drive
   - mecanum drive
@@ -18,18 +20,18 @@ These resources are meant to be a supplement to the DVHS Robotics Devteams curri
   - cascading, continuous chain
   - hybrids
   - chain bar
-- [using elastics to band lifts]()
-- [bracing]()
-- [Manipulators (claw, roller, etc.)]()
-- [Gears (compound gearing)]()
-- [Friction]()
-- [Spacing]()
-- [Using Chain]()
-- [Joints (axle-screw converter)]()
-- [Cortex Wiring]()
-- [Tournament protocol]()
-- [Documentation & Engineering Notebooks]()
-- [ All about Sensors]()
+- [using elastics to band lifts](":disabled")
+- [bracing](":disabled")
+- [Manipulators (":disabled"claw, roller, etc.)]()
+- [Gears (":disabled"compound gearing)]()
+- [Friction](":disabled")
+- [Spacing](":disabled")
+- [Using Chain](":disabled")
+- [Joints (":disabled"axle-screw converter)]()
+- [Cortex Wiring](":disabled")
+- [Tournament protocol](":disabled")
+- [Documentation & Engineering Notebooks](":disabled")
+- [ All about Sensors](":disabled")
 
 # Programming Content
 - [ROBOTC Introduction](articles/starting-robotc.md)
