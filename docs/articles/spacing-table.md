@@ -2,7 +2,7 @@
 
 Remember to use a [Spacing Calculator](articles/external.md?id=spacing-calculator) in conjunction with this info, to really speed up the spacing process on the fly!
 
-### Inward-facing C-Channels, Cross-braced
+### Inward-facing C-Channels, Cross-braced ] [
 This configuration is for when 2 C-channels are joined by another channel or plate running across, and the C-channels have the largest face pointing towards the other C-channel. This is the distance on the inside, between the faces.
 
 `Distance(inches) = (CrossLength - 1) * 0.5 - 0.6`
@@ -20,7 +20,7 @@ This configuration is for when 2 C-channels are joined by another channel or pla
 | 7                     | 2.4               |
 | 8                     | 2.9               |
 
-### Same-Direction-facing C-Channels, Cross-braced
+### Same-Direction-facing C-Channels, Cross-braced [ [
 Same as above, but the C-channel main face is pointed both in the same direction, either both right or both left.
 
 `Distance(inches) = (CrossLength - 1) * 0.5 - 0.062`
@@ -37,7 +37,7 @@ Same as above, but the C-channel main face is pointed both in the same direction
 | 8                     | 3.438             |
 
 
-### Same-Direction-facing C-Channels, Cross-braced
+### Outward-facing C-Channels, Cross-braced [ ]
 When the C-channel main faces are pointed away from eachother.
 
 `Distance(inches) = (CrossLength - 1) * 0.5 + 0.476`
