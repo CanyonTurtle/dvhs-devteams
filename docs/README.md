@@ -37,9 +37,9 @@ These resources are meant to be a supplement to the DVHS Robotics Devteams curri
 
 # Programming Content
 1. [ROBOTC Introduction](articles/ROBOTC/00-starting-robotc.md)
-2. [Motor and Sensor Setup](articles/ROBOTC/01-motor-and-sensor-setup.md)
+2. [Motor and Sensor Setup](articles/ROBOTC/01-m-s-setup.md)
 3. [Functions](articles/ROBOTC/02-functions.md)
-4. [Simple Driver Program](articles/ROBOTC/03-simple-driver-program.md)
+4. [Simple Driver Program](articles/ROBOTC/03-driver-program.md)
 
 # Extra Articles
 
