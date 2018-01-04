@@ -28,7 +28,7 @@ These sections are all about reducing slop, and being more precise:
 
 You should also know some basic facts about how VEX distances correlate in real life:
 
-![c channel spacing](_media/c-chan-spacing.jpg)
+![c channel spacing](_media/refining-build-skill/c-chan-spacing.jpg)
 
 - Holes happen to be exactly 0.5" apart from hole to hole in a straight line.
 - The VRC max size limit is usually 18", so a 7-segment (35-hole) C-channel is 0.5" from being the max edge length.
@@ -41,16 +41,16 @@ Let's show a very simple scenario where you will need to calculate spacing: gear
 
 In a simple scenario, perhaps we want  to find what spacing should be used to space out two 84-tooth gears on some axles.
 
-![drawing](_media/cchandrawing.jpg)
+![drawing](_media/refining-build-skill/cchandrawing.jpg)
 
 To start, you need to find the lengths you already know. For this, I used some measurements on an online CAD viewer. You can see instructions on how to do this [in the CAD section](articles/cad.md).
 
 the gear width:
-![gearpic](_media/gearview.png)
+![gearpic](_media/refining-build-skill/gearview.png)
 The width the gear takes up - 0.50"
 
 the C channel hole spacing: 
-![cchanpic](_media/c-channel-dimension.PNG)
+![cchanpic](_media/refining-build-skill/c-channel-dimension.PNG)
 (the distance from the center of the C channel hole to the inside edge) - 0.30"
 
 Now, it is easiest if you can space out one side of both gears with a simple spacer (e.g. 0.25" spacer in this scenario would be appropriate.).
@@ -93,6 +93,6 @@ Secondly, the distance between the two parts of the joint should be **minimized*
 
 Thirdly, understand cantilever joints. A cantilever joint is when there is an open end on the pivoting screw/axle. Cantilever joints should only be done with screws, and they should have a middle locknut or kepsnut securing the screw tightly to the first piece of metal.
 
-![cantilever](_media/cantilever.jpg)
+![cantilever](_media/refining-build-skill/cantilever.jpg)
 
 A Cantilever explanation

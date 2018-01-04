@@ -2,7 +2,7 @@
 
 Every team is a bit different in their design process, but there is a general methodology that successful teams subscribe to. This is called the **Engineering Process**, and it provides a clear path to the robot design process.
 
-![engineering process](_media/engineering-process.png)
+![engineering process](_media/engineering-process/engineering-process.png)
 
 Don't just sit down and build, start with a problem defined, and go through the steps with the team!
 
