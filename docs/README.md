@@ -9,7 +9,7 @@ These resources are meant to be a supplement to the DVHS Robotics Devteams curri
 - [Terminology](articles/terminology.md)
 - [Engineering-Processs](articles/engineering-process.md)
 - [Refining Build Skill](articles/refining-build-skill.md)
-- [Subsystem Explanation](/ ":disabled")
+- [Drivetrains](/articles/drivetrains.md)
   - tank drive
   - x drive
   - mecanum drive
