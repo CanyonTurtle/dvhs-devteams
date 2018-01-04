@@ -37,3 +37,9 @@ The more torque you have, the less speed, and vice versa.
 >What are motor internals? [Watch an educational YouTube video by team 1961.](https://www.youtube.com/watch?v=W9JUJJ5ADEw)
 
 TODO do some calculations.
+
+### 3. Neat Build Quality
+The key to building nice drivetrains is to keep them as simple as possible. Can you build a drive with 6 7-segment c channels? perfect. simple enough, and pretty light. Make sure the [Spacing is On-Point](articles/refining-build-skill?id=know-thy-spacing) as well. If you can keep the drive C - channels mounted with C channels running across the drive sideways, this is almost always preferrable - it simply lines everything up neatly. It is up to the designers though - there countless ways to solve this problem!
+
+### 4. Room for the Lift, Cortex, Manipulator, etc...
+your drive kind of, majorly depends on what your robot is supposed to do. Make sure you know where your lift towers are going - often you can re-use your lift tower bracing as your drive bracing. The Cortex can often be mounted on the drive too, preferrably with [rubber links](https://www.vexrobotics.com/275-1029.html).
