@@ -4,12 +4,7 @@ These resources are meant to be a supplement to the DVHS Robotics Devteams curri
 
 > If you are making content, put the article in the `articles` folder, and then change the link from disable to the link url in the README.md in the `docs` folder. Thanks!
 
-# Mechanical Content
-
-- [Terminology](articles/terminology.md)
-- [Engineering-Processs](articles/engineering-process.md)
-- [Refining Build Skill](articles/refining-build-skill.md)
-- [Drivetrains](/articles/drivetrains.md)
+### Content ideas: 
   - tank drive
   - x drive
   - mecanum drive
@@ -20,6 +15,13 @@ These resources are meant to be a supplement to the DVHS Robotics Devteams curri
   - cascading, continuous chain
   - hybrids
   - chain bar
+
+# Mechanical Content
+
+- [Terminology](articles/terminology.md)
+- [Engineering-Processs](articles/engineering-process.md)
+- [Refining Build Skill](articles/refining-build-skill.md)
+- [Drivetrains](/articles/drivetrains.md)
 - [using elastics to band lifts](/ ":disabled")
 - [bracing](/ ":disabled")
 - [Manipulators - claw, roller, etc.](/ ":disabled")
@@ -34,7 +36,10 @@ These resources are meant to be a supplement to the DVHS Robotics Devteams curri
 - [ All about Sensors](/ ":disabled")
 
 # Programming Content
-- [ROBOTC Introduction](articles/starting-robotc.md)
+1. [ROBOTC Introduction](articles/ROBOTC/00-starting-robotc.md)
+2. [Motor and Sensor Setup](articles/ROBOTC/01-motor-and-sensor-setup.md)
+3. [Functions](articles/ROBOTC/02-functions.md)
+4. [Simple Driver Program](articles/ROBOTC/03-simple-driver-program.md)
 
 # Extra Articles
 
