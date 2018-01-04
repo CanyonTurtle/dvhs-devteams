@@ -41,21 +41,21 @@ As you practice building in VEX, you will see that spacing exactness will determ
 
 Let's show a very simple scenario where you will need to calculate spacing: gears.
 
-In a simple scenario, perhaps we want  to find what spacing should be used to space out two 84-tooth gears on some axles.
+In a simple scenario, perhaps we want to find what spacing should be used to space out two 84-tooth gears on some axles.
 
 ![drawing](_media/refining-build-skill/cchandrawing.jpg)
 
-To start, you need to find the lengths you already know. For this, I used some measurements on an online CAD viewer. You can see instructions on how to do this [in the CAD section](articles/cad.md).
+To start, you need to model the problem. See the above picture - now we can solve for the space labeled 'A'. Now we need to find the lengths 'B', 'C', and 'D': we know we can. For this, I used some measurements on an online CAD viewer. You can see instructions on how to do this [in the CAD section](articles/cad.md).
 
-the gear width:
+the gear width ('B'):
 ![gearpic](_media/refining-build-skill/gearview.png)
 The width the gear takes up - 0.50"
 
-the C channel hole spacing: 
+It is easiest if you can space out one side of both gears with a simple spacer (e.g. 0.25" spacer in this scenario would be appropriate). So There's our 'C'.
+
+the C channel hole spacing: (Part of finding 'D')
 ![cchanpic](_media/refining-build-skill/c-channel-dimension.PNG)
 (the distance from the center of the C channel hole to the inside edge) - 0.30"
-
-Now, it is easiest if you can space out one side of both gears with a simple spacer (e.g. 0.25" spacer in this scenario would be appropriate.).
 
 Now, the remaining space on this axle just needs to be calculated. 
 
