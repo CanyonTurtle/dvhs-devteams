@@ -6,7 +6,7 @@ This document will explain how to get ROBOTC onto a computer, and the very basic
 
 
 ## Windows
-1. [Create a Vex account and/or sign in:](https://www.vexrobotics.com/customer/account/login/) 
+1. [Create a Vex account and/or sign in:](https://www.vexrobotics.com/customer/account/login/)
 2. [Download ROBOTC](https://www.vexrobotics.com/downloadable/customer/products/)
 3. Look under Downloads, choose ROBOTC for VEX Robotics 4.x (Windows EXE, for individual installation)
 4. After the executable downloads, run it on your computer and follow the steps to finish installing.
@@ -22,7 +22,7 @@ This document will explain how to get ROBOTC onto a computer, and the very basic
 
 
 # Basics
-Firstly, ROBOTC is a robotics platform that uses the C programming language as a means to program robots. 
+Firstly, ROBOTC is a robotics platform that uses the C programming language as a means to program robots.
 C is a low-level programming language - it has very direct control over the machine.
 In order to learn to use ROBOTC, a basic understanding of C is required.
 
@@ -81,7 +81,7 @@ task main()
 
 > To restart the program, either power cycle the cortex (turn it off and back on) or use the ROBOTC start menu that pops up when the program is downloaded.
 
-Here we can see two new parts of ROBOTC: 
+Here we can see two new parts of ROBOTC:
 `// comments`: lines that look like this. Comments are useful for documenting (explaining) code while it is written. Documenting helps programmers remember what they did later on, and helps other people understand what the code is supposed to do.
 wait1Msec(int time); This command waits for some amount of time. The command must be supplied with a time, which must be an integer.
 
@@ -100,7 +100,7 @@ task main()
 {
   // keep going forever
   while(true) {
-    
+
     // if the user presses button 5U
     if (vexRT[Btn5U] == 1) {
       motor[port1] = 127;
@@ -132,8 +132,16 @@ if(vexRT[Btn5D]) {
 }
 ```
 
-Since the C language treats 1 as true when using it as a conditional (the part inside the parentheses of the if-else statement or while loop), the == 1 can be ommitted, if preferred.
-Variables
+Note that since the buttons will return 0 or 1, not false or true, we can use this to simplify the entire if, else if, else statement into a single line of code.
+
+``` c
+  motor[port1] = (vexRT[Btn5U] - vexRT[Btn5D]) * 127;
+```
+But, this is complicated and if it doesn't make sense, just use the if statements above, it is just as good and much easier to read. The point is, there are many ways to accomplish something in code, so don't be afraid to try something new!
+
+
+Next, let's use variables to improve the readability of the code.
+
 Storing information is really useful. Use this external resource to learn [what a variable is, and how to make them in C](https://www.tutorialspoint.com/cprogramming/c_variables.htm).
 
 Now, let’s see a use case of variables. Perhaps, storing the user’s joystick input for driving?
@@ -146,7 +154,7 @@ task main()
   int rightPower;
 
   while (true) {
-    
+
     // store user input into variables
     leftPower = vexRT[Ch1];
     rightPower = vexRT[Ch2];
@@ -160,6 +168,9 @@ task main()
 ```
 
 This code has several important aspects:
+
 A `while` loop - that keeps going forever. Remember that while loops check the condition at the top, and if it is true, the while loop’s body inside the { ... } will execute once, and the entire process repeats until the top condition is false.
+
 Two int variables: leftPower and rightPower, being used to temporarily store user input. The analog channels can return any number between -127 and 127, corresponding to the user pressing fully back or fully forward, so the answer is stored in the int type.
-The use of vexRT[Ch3] to read user input. Ch3 corresponds to the analog channel on the left:
+
+The use of vexRT[ ... ] to get user input. The 4 channels on the VEX joystick return a number between 1 and 100.
