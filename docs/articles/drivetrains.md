@@ -48,6 +48,20 @@ Also, every wheel and gear's screw or axle should **always** be supported by eit
 
 Another important consideration is: if you use gears, there should be almost no idler gears (any gear that's not the input or output, basically).
 
-![drivecomtriangles](_media/drivetrains/gearing-drive.png)
+![gearpic](_media/drivetrains/gearing-drive.png)
 
-Notice how with simply moving the motor placement, you can reduce the amount of idler gears.
+> This drive illustration is missing alot - the second metal side, any spacers, also it's not real. This is simply to illustrate a point, not to show a perfect drive.
+
+Notice how with simply moving the motor placement, you can reduce the amount of idler gears. You can alternatively link drive sides together with chain, or you could not link them at all. That brings us to...
+
+### Linked Sides
+Should a drive have linked sides? it depends. The pros:
+- if one wheel is off the ground, the side still has 2 motor's worth of power
+- the wheels are guranteed to spin at the same speed on a given side - the drive is more likely to move in a straight line without programming assistance
+
+The cons:
+- linking the wheels adds friction
+- it's a teeny bit heavier
+- less space for the lift towers to be inside the drive. You might have to get creative with the linking.
+
+Consider these tradeoffs. Maybe you can get away with not linking the drive.
