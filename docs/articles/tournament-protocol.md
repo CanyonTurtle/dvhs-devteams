@@ -12,3 +12,15 @@ What a VEX Robotics Competition Tournament is:
 What a VEX Robotics Competition IS NOT:
 - A time to rebuild your entire robot. After losing a match, you may be tempted to make a major change, hold off on that and just take notes on what you wanted to to do, There are many more matches and tournaments to come but the tournament is not the time to rebuild your robot.
 - A place to copy robots. Do not go around taking close up picture of other robots with the intent to copy. Make sure to ask the team first if its okay as directly copying an idea can be frustrating for a team that puts in a lot of time and effort developing something. 
+
+# Assigning Tournament-Day Roles
+A VRC Tournament has alot of moving parts. It will be huge advantage to teams if they plan roles for the day **beforehand**.
+
+Here's a list of roles that need to be fulfilled on the path to winning in competition and in judging awards.
+- Inspection crew: will take the robot to the inspection table at the beginning of the day.
+- Registration crew: will make sure the team picks up the registration packet, and signs up for judging awards / skills runs if applicable.
+- Pre-match checkers: will review the robot before every match to make sure everything is right (batteries charged **and plugged in correctly**, screws in place, joystick has OK batteries, team has goggles etc...)
+- Driving team: the three people (max) who will show up to drive or coach the matches.
+- Queue Watcher: will update the team on when matches are about to happen, when the skills feild is ready, when judges are coming around, etc...
+- Presentation crew: facilitates the judging presentation setup and makes sure everyone is ready to present.
+- Battery guy: makes sure batteries are charging (safe mode for qualification matches, fast mode for elimination matches is what we at DVHS usually do).

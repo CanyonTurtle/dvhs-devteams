@@ -22,6 +22,8 @@ These sections are all about reducing slop, and being more precise:
 
 # Know thy Spacing
 
+> See the [Spacing Tables](articles/spacing-table.md) for documented lengths of common spacing scenarios.
+
 **Spacing** refers to putting nylon spacers, tefflons, steel washers, shaft collars, and whatever else is going across the screw/axle on a joint, such that the parts can't slide around. Spacing is the only thing standing in between order and chaos on the drivetrain, the lift, and whatever else gets built - with spacing, the fight against slop is real. It is therefore important to be **precise** and **exact** - that means you know what the spacing should be, mathematically!
 
 There are many ways to measure spacing. A ruler is an ok method, but there are more precise ways. For example, [Vex](https://www.vexrobotics.com/channel.html) publishes their part information, complete with dimensions. You might find everything you need to calculate spacing from this. Vex puts what are called `.STEP` files on their part product pages too - this is a complete 3D representation of a part. In combination with a free `.STEP` part viewer [online by autodesk](https://viewer.autodesk.com/), you might be able to space out your design without touching a piece of metal! That being said, having the full CAD program and designing your robot via computer is the most scalable way to space out the robot - it will measure distances for you the easiest.
@@ -72,9 +74,7 @@ to fill with more spacers.
 
 Wondering which spacers to use? This problem is solved for you already, you can use a Spacing Calculator.
 
-Some people in our club have made one already:
-- [Calculator 1](https://canyonturtle.github.io/spacing-calc)
-- [Calculator 2 (pretty famous on VEX forums!)](http://www.dvhsrobotics.com/spacing-calculator.html)
+Some people in our club [have made one already](articles/external.md?id=spacing-calculator).
 
 This example illustrates some monkeying around to find the lengths precisely - it CAN be done! the reward is perfect spacing, and much less slop.
 
