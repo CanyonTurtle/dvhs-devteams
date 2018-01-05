@@ -30,7 +30,7 @@ How fast do you want your robot to go? How strong does it need to be? These ques
 
 `Power === Torque * Speed`
 
-The more torque you have, the less speed, and vice versa. 
+The more torque you have, the less speed, and vice versa.
 
 #### About possible internal gear ratios
 
@@ -54,7 +54,7 @@ Another important consideration is: if you use gears, there should be almost no 
 
 Notice how with simply moving the motor placement, you can reduce the amount of idler gears. You can alternatively link drive sides together with chain, or you could not link them at all. That brings us to...
 
-### Linked Sides
+### 5. Linked Sides
 Should a drive have linked sides? it depends. The pros:
 - if one wheel is off the ground, the side still has 2 motor's worth of power
 - the wheels are guranteed to spin at the same speed on a given side - the drive is more likely to move in a straight line without programming assistance
@@ -65,3 +65,21 @@ The cons:
 - less space for the lift towers to be inside the drive. You might have to get creative with the linking.
 
 Consider these tradeoffs. Maybe you can get away with not linking the drive.
+
+### 5. Gear Linked or Sprocket and Chain Linked?
+At first glance, gears and sprockets appear to do the same job: transmit motion from the motor to another point on the robot (in this case the wheels on our drivetrain).
+
+Pros for Gears:
+- Can be more mechanically efficent considering how they do have as much "play" as sprockets
+- With a large selection of gear sizes and thicknesses, can be adaptable to many situations
+- No chain to snap or get caught
+Cons for Gears:
+- When using in a drive train, it is inneffcient to have a large "chain" of gears as seen in the above pictures
+- Gears need more vertical clearence and consideration must be made about the contact with field and game object
+Pros for Sprockets
+- Better than gears for transmitting power over distance
+- May be optimal for linking the front and back of your drive train together if you put sprocket, motor, and wheel on the same axle
+- You will have no "idler" wheel or sprocket in that configuration
+Cons for Sprockets
+- Sometimes the spacing between the sprockets may not result in an integer number of chain being used, resulting in the requirement of a tensioner.
+- Adding a more than 2 sprockets especially if all of them are co-linear may result in a un-even tension on the sprockets not on the end of the loop.
