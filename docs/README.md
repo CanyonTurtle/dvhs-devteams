@@ -41,6 +41,9 @@ These resources are meant to be a supplement to the DVHS Robotics Devteams curri
 3. [Functions](articles/ROBOTC/02-functions.md)
 4. [Simple Driver Program](articles/ROBOTC/03-driver-program.md)
 
+# Documentation
+- [Engineering Notebook](articles/Documentation/engineering-notebook.md)
+
 # Extra Resources
 - [Spacing Table](articles/spacing-table.md)
 - [Setting Up CAD](articles/cad.md)
