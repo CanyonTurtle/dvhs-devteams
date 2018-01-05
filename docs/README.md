@@ -4,7 +4,7 @@ These resources are meant to be a supplement to the DVHS Robotics Devteams curri
 
 > If you are making content, put the article in the `articles` folder, and then change the link from disable to the link url in the README.md in the `docs` folder. Thanks!
 
-### Content ideas: 
+### Content ideas:
   - tank drive
   - x drive
   - mecanum drive
@@ -31,7 +31,7 @@ These resources are meant to be a supplement to the DVHS Robotics Devteams curri
 - [Using Chain](/ ":disabled")
 - [Joints, axle-screw converter](/ ":disabled")
 - [Cortex Wiring](/ ":disabled")
-- [Tournament protocol](/ ":disabled")
+- [Tournament protocol](articles/tournament-protocol)
 - [Documentation & Engineering Notebooks](/ ":disabled")
 - [ All about Sensors](/ ":disabled")
 
