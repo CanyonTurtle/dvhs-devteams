@@ -43,8 +43,11 @@ I want to close off this document by stating that the information above is all s
 Resources
 -------
 [Useful notebook tips](https://www.vexforum.com/index.php/30394-notebook-tips)
+
 [Using drawings in the notebook](https://www.vexforum.com/index.php/29891-pictures-vs-drawings-for-notebook)
+
 [NBN worlds winning notebook](https://www.roboticseducation.org/documents/2016/11/vrc-engineering-notebook-team-1575a.pdf)
+
 *Resource 1: Couple of websites from Vexforums (a great resource) that may provide useful tips in making the engineering notebook*
 
 ![alt text](https://sites.google.com/a/students.op97.org/7480k/_/rsrc/1470337719501/weekly-updates/design-award-rubric/picture%201.PNG "Page 1")
