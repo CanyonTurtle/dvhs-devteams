@@ -50,8 +50,8 @@ Resources
 ![alt text](https://sites.google.com/a/students.op97.org/7480k/_/rsrc/1470337719501/weekly-updates/design-award-rubric/picture%201.PNG "Page 1")
 
 
-![alt text]
-(https://sites.google.com/a/students.op97.org/7480k/_/rsrc/1470337718505/weekly-updates/design-award-rubric/vex%201.PNG "Page 2")
+![alt text](https://sites.google.com/a/students.op97.org/7480k/_/rsrc/1470337718505/weekly-updates/design-award-rubric/vex%201.PNG "Page 2")
 *Resource 2: The rubric judges use to grade teams for the Excellence Award. This is called the Design Award Rubric, since the runner up to the Excellence Award is the Design Award. As you can see, it encompasses all aspects of performance, including competition ranking, skills ranking, teamwork, and documentation.*
  
+![alt text](https://github.com/CanyonTurtle/dvhs-devteams/blob/master/docs/_media/engineering-process/engineering-process.png "The Engineering Process")
 *Resource 3: The engineering process is a common, yet powerful tool teams use to aid them in efficient and effective building. Though some may deem it as tedious , when done properly, it ensures that all parts of the robot function at their best state. Beyond high school robotics, engineers in the industrial world follow a similar (if not the same) process when creating the complex, intricate machinery. Above is a picture of the general engineering process, though it goes by different processes (all having the same general idea).*
