@@ -1,8 +1,8 @@
 # Teamwork
 > Simply put: Prioritize your teammates!
 
-This article provides a couple basic guidelines to working as part of a team. Working as part of a team is a challenge: everyone has feelings, everyone has good and difficult days, and everyone is, well, human. Because of this, it is necessary to have good team manners and to always try to show respect to your teammates.
-
+This article provides a couple pieces of advice for having productive teamwork. Working as part of a team can be a challenge. everyone has feelings, everyone has good and difficult days, and everyone makes mistakes. Because of this, it is necessary to have good team manners and to always try to show respect for your teammates.
+  
 This advice is not specific to Robotics at all - teamwork is teamwork.
 
 # Make-Space, Take-Space
