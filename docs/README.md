@@ -45,6 +45,7 @@ These resources are meant to be a supplement to the DVHS Robotics Devteams curri
 - [Engineering Notebook](articles/Documentation/engineering-notebook.md)
 
 # Extra Resources
+- [Teamwork](articles/teamwork.md)
 - [Spacing Table](articles/spacing-table.md)
 - [Setting Up CAD](articles/cad.md)
 - [External Links](articles/external.md)
