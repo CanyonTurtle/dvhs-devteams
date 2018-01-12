@@ -30,7 +30,7 @@ These resources are meant to be a supplement to the DVHS Robotics Devteams curri
 - [Spacing](/ ":disabled")
 - [Using Chain](/ ":disabled")
 - [Joints, axle-screw converter](/ ":disabled")
-- [Cortex Wiring](/ ":disabled")
+- [Cortex Wiring](/articles/wiring.md)
 - [General Design Considerations](/articles/build-considerations.md)
 - [Tournament protocol](articles/tournament-protocol)
 - [Documentation & Engineering Notebooks](/ ":disabled")
