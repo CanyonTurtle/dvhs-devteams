@@ -31,6 +31,15 @@ void holdArmAtTarget( int target ){
 
 If the arm is above the targetted value, it will power downwards. If it is below the targetted value, it will power upwards. This is still a terrible solution though. What we will see here is not the arm holding at the wanted target. It will instead oscillate between being above and below the target. Now you can implement tons of different things to hold it up with a holding power using a threshold and all that nonsense, but there is a much better method, and you guessed it, a PID.
 
+## What is PID?
+
+A PID controller is about controlling a system. This system could be, for instance, a robot arm's angle. There is a `target`, aka a place to reach, and a `current value`, the place right now. There is also an `error`, which is the `target - current value`, or the difference of the two places. A PID controller is a piece of code that *minimizes the error* of a system. It does so by answering 3 fundamental questions:
+1. How far away is the current value from the target? **current error - used with P.**
+2. What was the error in the recent past, over time? **past error - used with I.**
+1. How quickly is the error decreasing right now? **past error - used with D.**
+
+By answering these questions, a system can be controlled precisely. Read on to see how!
+
 ## Proportion
 
 First lets go over the Proportional control aspect, or the P.
