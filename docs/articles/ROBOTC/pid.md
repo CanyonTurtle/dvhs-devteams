@@ -4,7 +4,7 @@ A PID controller, informally called a 'PID', is widely used in industrial life a
 
 The PID Controller solves challenges that come up when controlling a system. More on that later.
 
-Before we begin, I want you to think about this problem: Using an encoder, or some other sensor, how could you bring an arm up to a target? Well you could use an if statement. Let's look at the following:
+Before we begin, think about this problem: Using an encoder, or some other sensor, how could you bring an arm up to a target? Well you could use an if statement. Let's look at the following:
 
 ``` c
 void moveArmToTarget( int target ){
@@ -31,15 +31,17 @@ void holdArmAtTarget( int target ){
 
 If the arm is above the targetted value, it will power downwards. If it is below the targetted value, it will power upwards. This is still not the best solution though. The arm won't hold at the wanted target. It will instead oscillate between being above and below the target. How can we *get slower as we approach the right answer?*
 
+With these difficulties in mind, let's learn about a PID controller, which solves these challenges for us.
+
 ## What is PID?
 
-A PID controller is about controlling a system. This system could be, for instance, a robot arm's angle. There is a `target`, aka a place to reach, and a `current value`, the place right now. There is also an `error`, which is the `target - current value`, or the difference of the two places. A PID controller is a piece of code that *minimizes the error* of a system. It does so by answering 3 fundamental questions:
+A PID controller is about controlling a system. This system could be, for instance, a robot arm's angle. There is a `target`, aka a place to reach, and a `current value`, the place right now. There is also an `error`, which is the `target - current value`, or the difference of the two places. A PID controller is a piece of code that *minimizes the error* of a system, or makes the error go down over time. It does so by answering 3 fundamental questions:
 
 1. How far away is the current value from the target? **reducing the current error - used with P.**
 2. What was the error in the recent past, over time? **accounting for past error - used with I.**
 1. How quickly is the error decreasing right now? **preventing the future error - used with D.**
 
-By answering these questions, a system can be controlled precisely. After all, **when the error is minimized, the system is where you want it to be**. Read on to see how to use PID controllers.
+By answering these questions, a system can be controlled precisely. What you need to understand is that **when the error is minimized, the system is where you want it to be**. Therefore, we can treat the whole issue of getting our systems where we want them as a game of minimizing the error. Read on to see how to use PID controllers.
 
 ## Proportion
 
