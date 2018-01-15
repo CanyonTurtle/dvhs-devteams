@@ -41,6 +41,7 @@ These resources are meant to be a supplement to the DVHS Robotics Devteams curri
 2. [Motor and Sensor Setup](articles/ROBOTC/01-m-s-setup.md)
 3. [Functions](articles/ROBOTC/02-functions.md)
 4. [Simple Driver Program](articles/ROBOTC/03-driver-program.md)
+5. [Controlling Systems with PID](articles/ROBOTC/pid.md)
 
 # Documentation
 - [Engineering Notebook](articles/Documentation/engineering-notebook.md)

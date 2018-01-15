@@ -4,7 +4,7 @@
 
 - Learn the Engineering Process.
 - Understand the RobotC system.
-- Control Sensors, Motors, LCD, use the Joystick, etc.
+- Use VEX EDR Parts to make robots.
 - Design safe programs and autonomous control routines.
 
 [GitHub](https://github.com/CanyonTurtle/robotc-docs-demo)

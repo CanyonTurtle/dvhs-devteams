@@ -6,16 +6,16 @@ In this program, we will be coding a robot with a simple 4 motor drive, 2 motor 
 
 Here is the wiring:
 
-1 - Claw Motor 1
-2 - Drive Motor 1
-3 - Drive Motor 2
-4 - Lift Motors 1,2: y-cabled through power expander
-5 - Lift Motor 3
-6 - Lift Motor 4
-7 - Lift Motors 5,6: y-cabled through power expander
-8 - Drive Motor 3
-9 - Drive Motor 4
-10 - Claw Motor 2
+1. Claw Motor 1
+2. Drive Motor 1
+3. Drive Motor 2
+4. Lift Motors 1,2: y-cabled through power expander
+5. Lift Motor 3
+6. Lift Motor 4
+7. Lift Motors 5,6: y-cabled through power expander
+8. Drive Motor 3
+9. Drive Motor 4
+10. Claw Motor 2
 
 If you don't know what some of this means, please visit the wiring article!
 
