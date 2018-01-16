@@ -31,7 +31,7 @@ void holdArmAtTarget( int target ){
 }
 ```
 
-If the arm is above the targetted value, it will power downwards. If it is below the targetted value, it will power upwards. This is still not the best solution though. The arm won't hold at the wanted target. It will instead oscillate between being above and below the target. How can we *get slower as we approach the right answer?*
+If the arm is above the targeted value, it will power downwards. If it is below the targeted value, it will power upwards. This is still not the best solution though. The arm won't hold at the wanted target. It will instead oscillate between being above and below the target. How can we *get slower as we approach the right answer?*
 
 With these difficulties in mind, let's learn about a PID controller, which solves these challenges for us.
 
@@ -49,9 +49,9 @@ By answering these questions, a system can be controlled precisely. What you nee
 
 First lets go over the Proportional control aspect, or the P.
 
-To try to gain some intuition for the solution, think about this question: How can we power a motor based on the targetted value AND our current sensor value? 
+To try to gain some intuition for the solution, think about this question: How can we power a motor based on the targeted value AND our current sensor value?
 
-Proportional control touches upon the idea of error. Remember, error is the difference between your targetted value and the current sensor value. In terms of code:
+Proportional control touches upon the idea of error. Remember, error is the difference between your targeted value and the current sensor value. In terms of code:
 
 ``` c
 error = target - SensorValue[ArmEncoder];
@@ -70,7 +70,7 @@ void holdArmAtTarget( int target ){
 }
 ```
 
-But, we can do better! Think about what this will be doing: we still have limited control over how much the arm is powering! For example, if we were using a potentiometer instead of an encoder, we would have a lot more values to work with, precicely 4096 values in 270 degrees of motion. 100 potentiometer values is a very small change. Would you really want to power your arm at 100 power when you are only 100 potentiometer values away? No!
+But, we can do better! Think about what this will be doing: we still have limited control over how much the arm is powering! For example, if we were using a potentiometer instead of an encoder, we would have a lot more values to work with, precisely 4096 values in 270 degrees of motion. 100 potentiometer values is a very small change. Would you really want to power your arm at 100 power when you are only 100 potentiometer values away? No!
 
 The problem is, the error and the speed that you want are correlated, but the details aren't settled yet. Exactly *how fast should the power change, considering error?*
 
@@ -93,21 +93,21 @@ void holdArmAtTarget( int target ){
 
 Now, we have achieved true power over our arm. As it approaches its target, it will slow down, and at its target hold a very small power to hold it at that target.
 
-However, this method is not perfect. With a pure p control, even if the constant is tuned to perfection, there will still be some degree of undershoow or overshoot. To solve these, we need to use an integral and a derivative, respectively.
+However, this method is not perfect. With a pure p control, even if the constant is tuned to perfection, there will still be some degree of undershoot or overshoot. To solve these, we need to use an integral and a derivative, respectively.
 
 ## Integral
 
 BEWARE: SOME OF THE FOLLOWING WILL **NOT** MAKE SENSE WITHOUT UNDERSTANDING WHAT AN INTEGRAL IS AND WHAT IT DOES.
 
-With a pure p control, it is very common to have an undershoot. What I mean by this is, for example, your arm is 100 potentiometer values below its target. But, because the p constant is for example 0.1, you are only powering your motors at 0.1*100 = 10 power! This will not move your motors to the targetted value. What can we do to stop this?
+With a pure p control, it is very common to have an undershoot. What I mean by this is, for example, your arm is 100 potentiometer values below its target. But, because the p constant is for example 0.1, you are only powering your motors at 0.1*100 = 10 power! This will not move your motors to the targeted value. What can we do to stop this?
 
 Like many other problems, we use calculus. In this case, we will be using calculus to examine the error vs time graph.
 
-Try to imagine the error vs. time graph. In my mind, it is a decreasing, concave up function, kind of like an exponential function. Very similar to an exponential function actually, because due to the problem mentioned before, the SensorValue can never reach its intended target, so it would act almost asymtotic to the x-axis. Our goal is to eliminate this "asymtote", and have the error hit zero. To do this, we use, you guessed it, an integral.
+Try to imagine the error vs. time graph. In my mind, it is a decreasing, concave up function, kind of like an exponential function. Very similar to an exponential function actually, because due to the problem mentioned before, the SensorValue can never reach its intended target, so it would act almost asymptotic to the x-axis. Our goal is to eliminate this "asymptote", and have the error hit zero. To do this, we use, you guessed it, an integral.
 
-In case you were curious, in terms of physics the official term for this integral we are using is absement, or the integral of position. We are looking for how the arm is away from its target, but also for how long.
+In case you were curious, in terms of physics the official term for this integral we are using is abasement, or the integral of position. We are looking for how the arm is away from its target, but also for how long.
 
-What would taking the integral of this error vs time graph give us? Recall that integrals accumulate y-values, or in this case error-values over time. By adding up the errors over a period of time, the integral will increase and we can power the motors. 
+What would taking the integral of this error vs time graph give us? Recall that integrals accumulate y-values, or in this case error-values over time. By adding up the errors over a period of time, the integral will increase and we can power the motors.
 
 First, let's make an integral variable, and an integral constant, same as the proportion constant. We will want to update this integral variable in the same ```while(true)``` as before. Also remember, integrals add up the ``functionValue * dT``. In our case, we don't really have to worry about the dT, because we can handle it in the constant we are going to make. But, conceptually, it is nice to keep. in out case, because there is a 10 millisecond delay between each loop, dT is 0.01 seconds.
 
@@ -134,7 +134,4 @@ void holdArmAtTarget( int target ){
 }
 ```
 
-Notice here, when setting the integral, I used the common ```+=``` notation. This syntax denoted the same as if it were to say ```integral = integral + (error * dT)```. This will handle the integral's accumulation over time. 
-
-
-
+Notice here, when setting the integral, I used the common ```+=``` notation. This syntax denoted the same as if it were to say ```integral = integral + (error * dT)```. This will handle the integral's accumulation over time.

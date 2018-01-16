@@ -3,11 +3,11 @@ The Judges Presentation
 
 Introduction
 ------------
-The Excellence award is one of the most prestigious awards in any Vex Robotics Tournament. The teams that earn it have successful robots, a good skills score,a solid Engineering Notebook, and a well-given presentation. As such, this guide will help you understand the basics of creating a solid presentation.
+The Excellence award is one of the most prestigious awards in any Vex Robotics Tournament. The teams that earn it have successful robots, a good skills score, a solid Engineering Notebook, and a well-given presentation. As such, this guide will help you understand the basics of creating a solid presentation.
 
 The Gist of It
 --------------
-  The main purpose of a presentation is to explain your thought process to judges who know nothing about your team. Essentially, you have to take every decision you made for the past couple of months, and condense it into 5-10 minutes worth of content. And make it somewhat entertaing. Don't worry- it's not that hard!
+  The main purpose of a presentation is to explain your thought process to judges who know nothing about your team. Essentially, you have to take every decision you made for the past couple of months, and condense it into 5-10 minutes worth of content. And make it somewhat entertaining. Don't worry- it's not that hard!
 
 The General Outline
 -----------
@@ -20,15 +20,15 @@ The General Outline
     6.The Engineering Process
     7. Ask for questions/Conclusion
 
-  Keep in mind that this order is completely arbitrary, with the exception of the introduction and conclusion of course. However, make sure that if any of these aspects are appplicable to your team, you include them.
+  Keep in mind that this order is completely arbitrary, with the exception of the introduction and conclusion of course. However, make sure that if any of these aspects are applicable to your team, you include them.
 
  Introduction
 ------------
-   When giving/rehearsing your presentation, remember that your first impression is your last impression. Thus, make sure that you are making eye contact, and try shaking the judges hand. And remember to smile! The judges are as tired as you, so try to look as enthusiastic as possible! As far as content goes, simply introduce every team member and thier respective roles on the team. Finally, introduce your team and robot. When introducing your team, be sure to discuss the various roles your team takes on to help with the efficient dynamic. As a guideline, your team may follow the standard build, programming, and documentation teams. Being one of the sections in the Design Award rubric, judges want to see how your team has divided its resources to ensure optimal performance. If you decide to adopt this technique as one of your slides, be sure to mention that the roles are nuanced; members may fall under multiple areas so that everyone understands the robot in equal fashion.
+   When giving/rehearsing your presentation, remember that your first impression is your last impression. Thus, make sure that you are making eye contact, and try shaking the judges hand. And remember to smile! The judges are as tired as you, so try to look as enthusiastic as possible! As far as content goes, simply introduce every team member and their respective roles on the team. Finally, introduce your team and robot. When introducing your team, be sure to discuss the various roles your team takes on to help with the efficient dynamic. As a guideline, your team may follow the standard build, programming, and documentation teams. Being one of the sections in the Design Award rubric, judges want to see how your team has divided its resources to ensure optimal performance. If you decide to adopt this technique as one of your slides, be sure to mention that the roles are nuanced; members may fall under multiple areas so that everyone understands the robot in equal fashion.
 
  Mentorship/Community Outreach
 -----------------------------
-   A huge part of robotics is ensuring that your team follows good dynamics and that you make an effort to help your community with your knowledge. And if your team is proactive in attempting these tasks, include it in your presentation. Try to explain how the older, more experience members on your team educate the younger, amateur members. Judges like to see how your team's chemistry works, and this is an amazing oppurtunity to display that. Additionaly, if your team plays an active role in helping spread your collective knowledge to the community, state that. STEM education is always great!
+   A huge part of robotics is ensuring that your team follows good dynamics and that you make an effort to help your community with your knowledge. And if your team is proactive in attempting these tasks, include it in your presentation. Try to explain how the older, more experience members on your team educate the younger, amateur members. Judges like to see how your team's chemistry works, and this is an amazing opportunity to display that. Additionally, if your team plays an active role in helping spread your collective knowledge to the community, state that. STEM education is always great!
 
  The Robot
 ---------
@@ -52,13 +52,8 @@ The General Outline
 
  Flex on them!
 -------------
-   Everything stated above is the basic skeleton of a team's presentation. However, many teams that win Excellence frequently tend to have certain unique attributes, that set them apart from other contendors. If your team has the skill and the time, here are some things you may want to consider adding:
+   Everything stated above is the basic skeleton of a team's presentation. However, many teams that win Excellence frequently tend to have certain unique attributes, that set them apart from other contenders. If your team has the skill and the time, here are some things you may want to consider adding:
 
    - Computer Aided Designs of your robot
    - Gifs of your auton/skills
    - Efficiency Calculations
- 
-
-
-
-
