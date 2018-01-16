@@ -10,6 +10,7 @@ Before we begin, think about this problem: Using an encoder, or some other senso
 void moveArmToTarget( int target ){
     while(SensorValue[ArmEncoder] <= target){
         setArmPower(127);
+        delay(10);
     }
     setArmPower(0);
 }
@@ -25,6 +26,7 @@ void holdArmAtTarget( int target ){
         } else {
             setArmPower(-127);
         }
+        delay(10);
     }
 }
 ```
@@ -63,6 +65,7 @@ void holdArmAtTarget( int target ){
     while(true){
         error = target - SensorValue[ArmEncoder];
         setArmPower(error);
+        delay(10);
     }
 }
 ```
@@ -71,22 +74,67 @@ But, we can do better! Think about what this will be doing: we still have limite
 
 The problem is, the error and the speed that you want are correlated, but the details aren't settled yet. Exactly *how fast should the power change, considering error?*
 
-This challenge is solved by a constant. I'm sure you've talked about constants in your Math or Science classes before. If we make a constant, we can truly gain control over how much we want our arm to power. I wll be calling my constant kP. k is often used to denote constants.
+This challenge is solved by a constant. I'm sure you've talked about constants in your Math or Science classes before. If we make a constant, we can truly gain control over how much we want our arm to power. I will be calling my constant kP. k is often used to denote constants.
 
 
 ``` c
 void holdArmAtTarget( int target ){
-    float kP = 0.01;
+    float kP = 0.1;
     int error;
     int power;
     while(true){
         error = target - SensorValue[ArmPotentiometer];
         power = error * kP;
         setArmPower(power);
+        delay(10);
     }
 }
 ```
 
+Now, we have achieved true power over our arm. As it approaches its target, it will slow down, and at its target hold a very small power to hold it at that target.
+
+However, this method is not perfect. With a pure p control, even if the constant is tuned to perfection, there will still be some degree of undershoow or overshoot. To solve these, we need to use an integral and a derivative, respectively.
+
+## Integral
+
+BEWARE: SOME OF THE FOLLOWING WILL **NOT** MAKE SENSE WITHOUT UNDERSTANDING WHAT AN INTEGRAL IS AND WHAT IT DOES.
+
+With a pure p control, it is very common to have an undershoot. What I mean by this is, for example, your arm is 100 potentiometer values below its target. But, because the p constant is for example 0.1, you are only powering your motors at 0.1*100 = 10 power! This will not move your motors to the targetted value. What can we do to stop this?
+
+Like many other problems, we use calculus. In this case, we will be using calculus to examine the error vs time graph.
+
+Try to imagine the error vs. time graph. In my mind, it is a decreasing, concave up function, kind of like an exponential function. Very similar to an exponential function actually, because due to the problem mentioned before, the SensorValue can never reach its intended target, so it would act almost asymtotic to the x-axis. Our goal is to eliminate this "asymtote", and have the error hit zero. To do this, we use, you guessed it, an integral.
+
+In case you were curious, in terms of physics the official term for this integral we are using is absement, or the integral of position. We are looking for how the arm is away from its target, but also for how long.
+
+What would taking the integral of this error vs time graph give us? Recall that integrals accumulate y-values, or in this case error-values over time. By adding up the errors over a period of time, the integral will increase and we can power the motors. 
+
+First, let's make an integral variable, and an integral constant, same as the proportion constant. We will want to update this integral variable in the same ```while(true)``` as before. Also remember, integrals add up the ``functionValue * dT``. In our case, we don't really have to worry about the dT, because we can handle it in the constant we are going to make. But, conceptually, it is nice to keep. in out case, because there is a 10 millisecond delay between each loop, dT is 0.01 seconds.
+
+
+``` c
+void holdArmAtTarget( int target ){
+    float kP = 0.1;
+    float kI = 0.001;
+    float dT = 0.01;
+
+    int error;
+    int integral;
+    int power;
+
+    while(true){
+        error = target - SensorValue[ArmPotentiometer];
+        integral += error * dT;
+
+        power = error * kP + integral * kI;
+
+        setArmPower(power);
+        delay(10);
+    }
+}
+```
+
+Notice here, when setting the integral, I used the common ```+=``` notation. This syntax denoted the same as if it were to say ```integral = integral + (error * dT)```. This will handle the integral's accumulation over time. 
 
 
 
