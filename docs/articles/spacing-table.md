@@ -38,11 +38,11 @@ Same as above, but the C-channel main face is pointed both in the same direction
 
 
 ### Outward-facing C-Channels, Cross-braced [ ]
-When the C-channel main faces are pointed away from eachother.
+When the C-channel main faces are pointed away from each other.
 
 `Distance(inches) = (CrossLength - 1) * 0.5 + 0.476`
 
-> The `+0.476` is because both sides are + 0.238" from the center of the hole to the inside face, so multiplying that by 2 yeilds the value.
+> The `+0.476` is because both sides are + 0.238" from the center of the hole to the inside face, so multiplying that by 2 yields the value.
 
 | CrossLength (# holes) | Distance (inches) |
 |-----------------------|-------------------|
