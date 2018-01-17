@@ -7,8 +7,8 @@ An important part of making competition-level robots is reducing the possible ro
 
 'Slop' refers to building 'sloppily':
 * [ ] spacing between parts is not exact
-* [ ] don't even know the right number of holes / the right length that the parts should form 
-* [ ] gears don't mesh with eachother perfectly
+* [ ] don't even know the right number of holes / the right length that the parts should form
+* [ ] gears don't mesh with each other perfectly
 * [ ] connection is easily twisted apart
 etc...
 * [ ] so much friction, nothing spins
@@ -24,7 +24,7 @@ These sections are all about reducing slop, and being more precise:
 
 > See the [Spacing Tables](articles/spacing-table.md) for documented lengths of common spacing scenarios.
 
-**Spacing** refers to putting nylon spacers, tefflons, steel washers, shaft collars, and whatever else is going across the screw/axle on a joint, such that the parts can't slide around. Spacing is the only thing standing in between order and chaos on the drivetrain, the lift, and whatever else gets built - with spacing, the fight against slop is real. It is therefore important to be **precise** and **exact** - that means you know what the spacing should be, mathematically!
+**Spacing** refers to putting nylon spacers, teflons, steel washers, shaft collars, and whatever else is going across the screw/axle on a joint, such that the parts can't slide around. Spacing is the only thing standing in between order and chaos on the drivetrain, the lift, and whatever else gets built - with spacing, the fight against slop is real. It is therefore important to be **precise** and **exact** - that means you know what the spacing should be, mathematically!
 
 There are many ways to measure spacing. A ruler is an ok method, but there are more precise ways. For example, [Vex](https://www.vexrobotics.com/channel.html) publishes their part information, complete with dimensions. You might find everything you need to calculate spacing from this. Vex puts what are called `.STEP` files on their part product pages too - this is a complete 3D representation of a part. In combination with a free `.STEP` part viewer [online by autodesk](https://viewer.autodesk.com/), you might be able to space out your design without touching a piece of metal! That being said, having the full CAD program and designing your robot via computer is the most scalable way to space out the robot - it will measure distances for you the easiest.
 
@@ -59,7 +59,7 @@ the C channel hole spacing: (Part of finding 'D')
 ![cchanpic](_media/refining-build-skill/c-channel-dimension.PNG)
 (the distance from the center of the C channel hole to the inside edge) - 0.30"
 
-Now, the remaining space on this axle just needs to be calculated. 
+Now, the remaining space on this axle just needs to be calculated.
 
 ```
 Remaining Spacing = Total distance - Gear width - 0.25" spacer
@@ -80,7 +80,7 @@ This example illustrates some monkeying around to find the lengths precisely - i
 
 # Aligning Made Easy
 
-There are several tricks you can use to easily 'line up' your build. 
+There are several tricks you can use to easily 'line up' your build.
 This includes the following guidelines:
 - There is an integer amount of holes connecting sets of parallel C channels. If you can brace together your lift and your drive with C channels running 'across' the whole side, that is the best way! It is simple.
 - The important joints are exact: they are either tightened with locknuts exactly centered, or they are mounted with shoulder screws. This ensures the spacing is exactly what you think it is! exceptions to this rule are when it's impossible to have centered spacing (like wedging a c channel between 2 other ones).
@@ -89,11 +89,11 @@ This includes the following guidelines:
 
 Firstly, joints that pivot **always** should have bearings on both parts of the joint. This is the **only** way to ensure a joint will be centered around the pivot point you want. Without bearings, you cannot center a screw.
 
-> Shoulder screws are incompatible with bearings. Bearings + normal screws are for *moving joints*, while shoulder screws are for perfectly-aligned *rigid structures*. 
+> Shoulder screws are incompatible with bearings. Bearings + normal screws are for *moving joints*, while shoulder screws are for perfectly-aligned *rigid structures*.
 
 Secondly, the distance between the two parts of the joint should be **minimized**. This is a huge way to reduce slop. Axles and screws will bend less and the joint will take up less space.
 
-Thirdly, understand cantilever joints. A cantilever joint is when there is an open end on the pivoting screw/axle. Cantilever joints should only be done with screws, and they should have a middle locknut or kepsnut securing the screw tightly to the first piece of metal.
+Thirdly, understand cantilever joints. A cantilever joint is when there is an open end on the pivoting screw/axle. Cantilever joints should only be done with screws, and they should have a middle locknut or keps nut securing the screw tightly to the first piece of metal.
 
 ![cantilever](_media/refining-build-skill/cantilever.jpg)
 
