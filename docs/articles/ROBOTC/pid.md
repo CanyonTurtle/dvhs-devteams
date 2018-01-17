@@ -74,7 +74,7 @@ But, we can do better! Think about what this will be doing: we still have limite
 
 The problem is, the error and the speed that you want are correlated, but the details aren't settled yet. Exactly *how fast should the power change, considering error?*
 
-This challenge is solved by a constant. I'm sure you've talked about constants in your Math or Science classes before. If we make a constant, we can truly gain control over how much we want our arm to power. I will be calling my constant kP. k is often used to denote constants.
+This challenge is solved by a constant. I'm sure you've talked about constants in your Math or Science classes before. If we make a constant, we can truly gain control over how much we want our arm to power. I will be calling my constant kP. k is often used to denote constants. 
 
 
 ``` c
@@ -115,7 +115,7 @@ First, let's make an integral variable, and an integral constant, same as the pr
 ``` c
 void holdArmAtTarget( int target ){
     float kP = 0.1;
-    float kI = 0.001;
+    float kI = 0.01;
     float dT = 0.01;
 
     int error;
@@ -135,3 +135,43 @@ void holdArmAtTarget( int target ){
 ```
 
 Notice here, when setting the integral, I used the common ```+=``` notation. This syntax denoted the same as if it were to say ```integral = integral + (error * dT)```. This will handle the integral's accumulation over time.
+
+When using an integral, it is also important to consider whether a `maxIntegral`, or `iCap` is needed. The issue with the integral is that it can get too large (or too small). If the integral gets too large, imagine what would happen to the power. With too high (or too low) of an integral, we would only power the motors more than intended and cause more of an overshoot. To prevent this, and to make sure integrals only activate when needed, we set a max integral that the integral cannot pass. Here is the previous example modified with a maxIntegral.
+
+``` c
+void holdArmAtTarget( int target ){
+    float kP = 0.1;
+    float kI = 0.01;
+    float dT = 0.01;
+
+    int error;
+    int integral;
+    int maxIntegral = 1000;
+    int power;
+
+    while(true){
+        error = target - SensorValue[ArmPotentiometer];
+        integral += error * dT;
+
+        if(integral > maxIntegral) integral = maxIntegral;
+        if(integral < -maxIntegral) integral = -maxIntegral;
+
+        power = error * kP + integral * kI;
+
+        setArmPower(power);
+        delay(10);
+    }
+}
+```
+
+Upon inspection, the max the integral would be able to power the motors with this ```maxIntegral``` is 10. This would, of course, change depending on the situation and the needs.
+
+Additionally, if we are using a task, or some other while loop that never exits in order to power our motors, when setting a new target, it is important to reset the integral to 0. If not, there could be a large integral stocked up that will mess up your PID, so watch out.
+
+# A couple of things to note
+
+1. Remember to *tune your constants*. **TUNE YOUR CONSTANTS!** I cannot stress this enough. It is simply not enough to make a PID. The constants are the heart and soul of a PID. Without them, nothing will work. **TUNE YOUR CONSTANTS!!!!** As annoying as it may seem, you are better off using one of the bad methods up above than using a bad PID without tuned constants. Use this [link](http://smithcsrobot.weebly.com/uploads/6/0/9/5/60954939/pid_control_document.pdf) for help with tuning PID constants.
+
+2. When researching PID's, don't be alarmed when you see terms you are not familiar with. Keep in mind that others like to call their variables different things. For example, instead of using k to denote the constants, many use the terms pGain, iGain, and dGain.
+
+3. Remember that there is no wrong way to do something. Using one of the bad methods in the beginning of this lesson is certainly not a preferred method to code, but often can be much simpler to use and make. Keep in mind that certain scenarios will require certain things, and sometimes a PID is not the solution.
