@@ -8,6 +8,7 @@ This website has many articles about lots of the ideas mentioned here, but not e
 Remember, you don't have to learn *everything* at once. Take it at your own pace, but make sure you have the goal to learn it all at some point!
 
 ### Programming terminology
+*basic*
 Be familiar with the meaning of these terms.
   - source code
   - compiler / compiling source code
@@ -17,7 +18,8 @@ Be familiar with the meaning of these terms.
   - compiler errors
   - asynchronous vs. synchronous
 
-### ROBOTC constructs *basic*
+### ROBOTC constructs
+*basic*
 know how to perform the following.
   - setting up the motors and sensors with names
   - motor setting
@@ -28,12 +30,14 @@ know how to perform the following.
   - find errors in a program
   - download a program, start / stop the program.
 
-### C constructs *basic*
+### C constructs
+*basic*
 Be aware of the following essentials of C (not specific to ROBOTC.)
   - assignment expressions (e.g. using the = sign to set motor/sensor power)
   - if, if/else if/else, while, for
 
-### variables & data types *basic*
+### variables & data types
+*basic*
 Important, not-ROBOTC-specific knowledge about how to store information.
   - what is a variable?
   - when is a variable useful?
@@ -45,7 +49,8 @@ Important, not-ROBOTC-specific knowledge about how to store information.
     - other (char, short, long)
   - typedef
 
-### functions *basic*
+### functions
+*basic*
 Also not-ROBOTC-specific knowledge.
   - what is a function?
   - when is a function a good idea?
@@ -56,7 +61,8 @@ Also not-ROBOTC-specific knowledge.
     - paramaters / arguments
   - function execution order (what happens when a function is called?)
 
-### tasks: *medium*
+### tasks:
+*medium*
 Tasks *are* ROBOTC specific.
   - what is a task?
   - what is the difference between a function and a task?
@@ -68,7 +74,8 @@ Tasks *are* ROBOTC specific.
   - what happens if you try to run the same task more than once?
   - what happens if you run different tasks calling the same functions at the same time?
 
-### Controlling systems with sensors:
+### Controlling systems with sensors
+*medium*
   - what is the goal of a PID controller?
   - what is the significance of the P, I, and D terms of PID?
   - know how to make a proportion controller.
@@ -76,16 +83,19 @@ Tasks *are* ROBOTC specific.
   - know how to make a PD controller.
   - know how to make a PID controller.
 
-### Working with multiple files: *medium*
+### Working with multiple files
+*medium*
   - using the contents of file A from file B.
   - scope in ROBOTC. [-> helpful scope article](https://www.geeksforgeeks.org/scope-rules-in-c/)
   - `.c` vs `.h` in ROBOTC*
 
-### Structs: *advanced*
+### Structs
+*advanced*
   - what is a struct?
   - when would 
 
-### Preprocessor: *advanced*
+### Preprocessor
+*advanced*
   - Making macros with `#define`
   - the `#ifndef #define #endif` pattern
   - Using `#pragma systemFile` and `#pragma` once
