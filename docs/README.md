@@ -37,12 +37,13 @@ These resources are meant to be a supplement to the DVHS Robotics Devteams curri
 - [ All about Sensors](/ ":disabled")
 
 # Programming Content
-1. [ROBOTC Introduction](articles/ROBOTC/00-starting-robotc.md)
-1.5 [Git and Version Control](articles/version-control.md)
-2. [Motor and Sensor Setup](articles/ROBOTC/01-m-s-setup.md)
-3. [Functions](articles/ROBOTC/02-functions.md)
-4. [Simple Driver Program](articles/ROBOTC/03-driver-program.md)
-5. [Controlling Systems with PID](articles/ROBOTC/pid.md)
+1. [Programming Roadmap](articles/ROBOTC/00-programming-roadmap.md)
+2. [ROBOTC Introduction](articles/ROBOTC/00-starting-robotc.md)
+3. [Git and Version Control](articles/version-control.md)
+4. [Motor and Sensor Setup](articles/ROBOTC/01-m-s-setup.md)
+5. [Functions](articles/ROBOTC/02-functions.md)
+6. [Simple Driver Program](articles/ROBOTC/03-driver-program.md)
+7. [Controlling Systems with PID](articles/ROBOTC/pid.md)
 
 # Documentation
 - [Engineering Notebook](articles/Documentation/engineering-notebook.md)
