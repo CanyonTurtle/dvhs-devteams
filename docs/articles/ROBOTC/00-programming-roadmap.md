@@ -9,6 +9,7 @@ Remember, you don't have to learn *everything* at once. Take it at your own pace
 
 ### Programming terminology
 *basic*
+
 Be familiar with the meaning of these terms.
   - source code
   - compiler / compiling source code
@@ -20,6 +21,7 @@ Be familiar with the meaning of these terms.
 
 ### ROBOTC constructs
 *basic*
+
 know how to perform the following.
   - setting up the motors and sensors with names
   - motor setting
@@ -32,12 +34,14 @@ know how to perform the following.
 
 ### C constructs
 *basic*
+
 Be aware of the following essentials of C (not specific to ROBOTC.)
   - assignment expressions (e.g. using the = sign to set motor/sensor power)
   - if, if/else if/else, while, for
 
 ### variables & data types
 *basic*
+
 Important, not-ROBOTC-specific knowledge about how to store information.
   - what is a variable?
   - when is a variable useful?
@@ -51,6 +55,7 @@ Important, not-ROBOTC-specific knowledge about how to store information.
 
 ### functions
 *basic*
+
 Also not-ROBOTC-specific knowledge.
   - what is a function?
   - when is a function a good idea?
@@ -63,6 +68,7 @@ Also not-ROBOTC-specific knowledge.
 
 ### tasks:
 *medium*
+
 Tasks *are* ROBOTC specific.
   - what is a task?
   - what is the difference between a function and a task?
@@ -76,6 +82,7 @@ Tasks *are* ROBOTC specific.
 
 ### Controlling systems with sensors
 *medium*
+
   - what is the goal of a PID controller?
   - what is the significance of the P, I, and D terms of PID?
   - know how to make a proportion controller.
@@ -85,17 +92,20 @@ Tasks *are* ROBOTC specific.
 
 ### Working with multiple files
 *medium*
+
   - using the contents of file A from file B.
   - scope in ROBOTC. [-> helpful scope article](https://www.geeksforgeeks.org/scope-rules-in-c/)
   - `.c` vs `.h` in ROBOTC*
 
 ### Structs
 *advanced*
+
   - what is a struct?
   - when would 
 
 ### Preprocessor
 *advanced*
+
   - Making macros with `#define`
   - the `#ifndef #define #endif` pattern
   - Using `#pragma systemFile` and `#pragma` once
