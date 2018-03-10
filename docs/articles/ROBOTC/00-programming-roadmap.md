@@ -90,7 +90,7 @@ Tasks *are* ROBOTC specific.
   - know how to make a PD controller.
   - know how to make a PID controller.
 
-### Working with Fultiple Files
+### Working with Multiple Files
 *medium*
 
   - using the contents of file A from file B.
@@ -101,7 +101,7 @@ Tasks *are* ROBOTC specific.
 *advanced*
 
   - what is a struct?
-  - when would 
+  - when would a struct be useful in designing programs?
 
 ### Preprocessor
 *advanced*
